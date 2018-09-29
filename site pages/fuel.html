@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Расчет топлива</title>
+    <base href="http://fuelandbrakes.ml/">
+    <link rel="stylesheet" href="/css/fuel.css">    <!-- добавить оп завершению правильный путь -->
+    <meta name="description" content="Калькулятор для подсчета расхода торлива на участках обслуживания. Расчет справок ВУ-45.">
+    <meta name="keywords" content="Калькулятор.Топливо. ВУ-45">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="/favicon/logo fuel.ico" rel="shortcut icon" type="image/x-icon">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="content">
+            <header>
+                <div>
+                    <p>Расчет расхода топлива</p>
+                </div>
+            </header>
+            <article>
+                <section id="tra">
+                    <table>
+                        <tr>
+                            <td id="td1">Вес</td>
+                            <td id="td2"><input type="number" id="n1" size="20" placeholder="брутто" name="num" min="1" max="5000" type="tel" required></td>
+                            <td id="td3"><button id="btn" onclick="multiply1()">Перемножить</button></td>
+                        </tr>
+                        <tr>
+                            <td id="td1">Расстояние</td>
+                            <td id="td2"><input type="number" id="n2" size="20" placeholder="км" name="num" min="1" max="250" type="tel" required></td>
+                            <td id="td3">Итого</td>
+                        </tr>
+                        <tr>
+                            <td id="td1">Коэфициент</td>
+                            <td id="td2"><input type="number" id="n3" size="20" placeholder="по талбице" name="num" min="1" max="250" type="tel" required></td>
+                            <td id="td3"><div id="outtra"></div></td>
+                        </tr>
+                    </table>
+                </section>
+                <section id="lok">
+                    <table>
+                        <tr>
+                            <td id="td1">Расстояние</td>
+                            <td id="td2"><input type="number" id="n4" size="20" placeholder="км" name="num" min="1" max="250" type="tel" required></td>
+                            <td id="td3"><button id="btn" onclick="multiply2()">Перемножить</button></td>
+                        </tr>
+                        <tr>
+                            <td id="td1"></td>
+                            <td id="td2">Итого</td>
+                            <td id="td3"><div id="outlok"></div></td>
+                        </tr>
+                    </table>
+                </section>
+            </article>
+        </div>
+        <footer>
+            <div id="footerlink"><a href="/index.html">На главную</a></div>
+            <div id="footerlink"><a href="/site pages/vu45.html">К расчету справки ВУ-45</a></div>
+            <div id="footerlink"><a href="/site pages/about.html">О проэкте</a></div>
+        </footer>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
