@@ -73,14 +73,6 @@ img{
     text-align: center;
 }
 
-.calc_fuel:hover, .calc_vu:hover{
-    background-color: #888;
-}
-
-.calc_fuel:active, .calc_vu:active{
-    background-color: #666;
-}
-
 .about{
     width: 100%;
     max-width: 30%;
@@ -96,6 +88,16 @@ img{
     text-align: center;
     display: flex;
     justify-content: center;
+}
+
+.calc_fuel:hover, .calc_vu:hover, .about:hover{
+    background-color: #888;
+}
+
+.calc_fuel:active, .calc_vu:active, .about:active{
+    background-color: #666;
+    border-bottom: 2px #444 solid;
+    margin-top: 3px;
 }
 
 .about_a{
