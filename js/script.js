@@ -7,7 +7,7 @@ function multiply1(){
     num3=document.getElementById("n3").value;
     num3=parseInt(num3);
     result=(num1*num2*num3)/10000;
-    document.getElementById("outtr").innerHTML = result;
+    document.getElementById("rd_data33").innerHTML = result;
     }
     
 function multiply2(){
@@ -15,6 +15,6 @@ function multiply2(){
     num4=document.getElementById("n4").value;
     num4=parseInt(num4);
     result=(num4*0.75);
-    document.getElementById("outlok").innerHTML = result;
+    document.getElementById("lok_data23").innerHTML = result;
 }
     
