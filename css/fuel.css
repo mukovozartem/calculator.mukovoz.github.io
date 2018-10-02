@@ -95,7 +95,7 @@ img{
     /* width: 100px; */
 }
 
-.nc1, .nc2, .nc3, .nc4{
+.c1, .c2, .c3, .c4{
     width: 100%;
     min-width: 75px;
     border-radius: 10px;
@@ -109,7 +109,7 @@ img{
     border: 2px solid #666;
 }
 
-.nc1:focus, .nc2:focus, .nc3:focus, .nc4:focus{
+.c1:focus, .c2:focus, .c3:focus, .c4:focus{
     border: 0;
 }
 
