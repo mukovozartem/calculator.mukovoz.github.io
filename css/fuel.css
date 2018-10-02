@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono:400,400i,700,700i|Roboto+Slab:400,700&subset=cyrillic,cyrillic-ext');
+
+/* 
+font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Mono', monospace;
+ */
+
+html{
+    background: #fff;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto Mono', monospace;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
+a{
+    text-decoration: none;
+    color: #555;
+    display: inline-block;
+}
+
+img{
+    height: 200px;
+    width: auto;
+}
+
+.header{
+    width: 100%;
+    max-width: 90%;
+    min-width: 300px;
+    height: 50px;
+    margin: 0 auto 25px;
+    padding: 10px;
+    border-radius: 0 0 20px 20px;
+    border-bottom: 5px #444 solid;
+    background-color: #222;
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.calc_tr, .calc_lok{
+    width: 100%;
+    max-width: 50%;
+    min-width: 300px;
+    margin: 0 auto 25px;
+    padding: 10px;
+    border-radius: 20px;
+    border-bottom: 5px #444 solid;
+    background-color: #999;
+    color: #222;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.calc_tr_col, .calc_lok_col{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.calc_tr_row, .calc_lok_row{
+    width: 100%;
+    max-width: 30%;
+    margin: 0 auto 10px;
+}
+
+.calc_tr_rowi, .calc_lok_rowi{
+    width: 100%;
+    max-width: 25%;
+    margin: 0 auto 10px;
+}
+
+.rd_data11, .rd_data21, .rd_data31, .lok_data11, .lok_data21{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rd_data12, .rd_data22, .rd_data23, .rd_data32, .lok_data12, .lok_data22{
+    display: flex;
+    justify-content: center;
+    /* width: 100px; */
+}
+
+.n1, .n2, .n3, .n4{
+    width: 100%;
+    min-width: 75px;
+    border-radius: 10px;
+    background-color: #777;
+    font-family: 'Roboto Mono', monospace;
+    color: #222;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    outline:none;
+    border: 2px solid #666;
+}
+
+.n1:focus, .n2:focus, .n3:focus, .n4:focus{
+    border: 0;
+}
+
+::placeholder{
+    color: #222;
+    font-size: 17px;
+    text-align: center;
+}
+
+.rd_data13, .rd_data33, .lok_data13, .lok_data23{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.btn{
+    min-width: 75px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background-color: #777;
+    font-family: 'Roboto Mono', monospace;
+    color: #222;
+    font-size: 20px;
+    border: 2px solid #666;
+    outline:none;
+}
+
+.btn:active{
+    border: 0;
+}
+
+.footer{
+    width: 100%;
+    max-width: 90%;
+    min-width: 300px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 20px 20px;
+    background-color: #222;
+    
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer_link{
+    font-size: 1.5em;
+    padding: 0 18px;
+    color: #fff;
+}
+
+@media (min-width: 800px) and (max-width: 950px){
+    .calc_tr, .calc_lok{
+        width: 100%;
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 690px) and (max-width: 799px){
+    .calc_tr, .calc_lok{
+        width: 100%;
+        max-width: 70%;
+    }
+
+    .footer_link{
+        font-size: 1.25em;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 689px){
+    .calc_tr, .calc_lok{
+        width: 100%;
+        max-width: 80%;
+    }
+
+    ::placeholder{
+        font-size: 16px;
+    }
+
+
+    .btn{
+        font-size: 17px;
+    }
+
+    .footer_link{
+        font-size: 1em;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 575px){
+    .calc_tr, .calc_lok{
+        width: 100%;
+        max-width: 90%;
+    }
+
+    ::placeholder{
+        font-size: 15px;
+    }
+
+    .btn{
+        font-size: 17px;
+    }
+
+    .footer_link{
+        font-size: 15px;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 499px){
+    .header{
+        font-size: 1.5em;
+    }
+
+    .calc_tr, .calc_lok{
+        width: 100%;
+        max-width: 90%;
+        font-size: 1.25em;
+    }
+
+    ::placeholder{
+        font-size: 14px;
+    }
+
+    .btn{
+        font-size: 13px;
+    }
+
+    .footer_link{
+        font-size: 11px;
+        padding: 0 10px;
+    }
+}
+
+@media (min-width: 350px) and (max-width: 399px){
+    .header{
+        font-size: 1.45em;
+    }
+
+    .calc_tr, .calc_lok{
+        width: 100%;
+        max-width: 90%;
+        font-size: 1em;
+    }
+
+    ::placeholder{
+        font-size: 14px;
+    }
+
+    .btn{
+        font-size: 11px;
+    }
+
+    .footer_link{
+        font-size: 11px;
+        padding: 0 5px;
+    }
+}
