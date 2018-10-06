@@ -7,7 +7,7 @@ function multiply1(){
     num3=document.getElementsByClassName("n3").value;
     num3=parseInt(num3);
     result=(num1*num2*num3)/10000;
-    document.getElementsByClassName("rd_js").innerHTML = result;
+    document.getElementById("rd_js").innerHTML = result;
     }
     
 function multiply2(){
