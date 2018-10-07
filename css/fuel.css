@@ -89,6 +89,10 @@ img{
     justify-content: flex-end;
 }
 
+.lok_data21{
+    display: none;
+}
+
 .rd_data12, .rd_data22, .rd_data23, .rd_data32, .lok_data12, .lok_data22{
     display: flex;
     justify-content: center;
