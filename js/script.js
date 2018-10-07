@@ -17,4 +17,5 @@ function multiply2(){
     result=(num4*0.75);
     document.getElementById("lok_js").innerHTML = result;
 }
-    
+
+// Попробывать сделать ввод в поля только цифры
