@@ -3,13 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <title>Расчет ВУ-45</title>
-    <link rel="stylesheet" href="/css/vu45.css">
+    <base href="http://fuelandbrakes.ml/"> 
+    <link rel="stylesheet" href="css site pages/vu45.css">
     <meta name="description" content="Калькулятор для подсчета расхода торлива на участках обслуживания. Расчет справок ВУ-45.">
     <meta name="keywords" content="Калькулятор.Топливо. ВУ-45">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon/logo vu45.ico" rel="shortcut icon" type="image/x-icon">
 </head>
 <body>
-    test vu45
+    
+    <header class="header">
+        Расчет справки ВУ-45
+    </header>
+
+    <div class="spravka">
+
+        <div class="spravka_treb">
+
+            <div class="row_1_1">
+                <div class="row_1_1_1">Вес поезда, тс</div>
+                <div class="row_1_1_2"><input type="text" class="n1 inp" size="20" placeholder="тонн" name="num1" min="1" max="5000" type="tel" required></div>
+            </div>
+
+            <div class="row_1_2">
+                <div class="row_1_2_1">Требуемое нажатие, тс</div>
+                <div class="row_1_2_2"></div>
+            </div>
+
+            <div class="row_1_3">
+                <div class="row_1_3_1">Ручные тормоза, осей</div>
+                <div class="row_1_3_2"></div>
+            </div>
+
+            <div class="row_1_4">
+                <button class="btn" onclick="multiply1()">Расчет</button>
+            </div>
+
+        </div>
+
+        <div class="spravka_fakt">
+
+            <div class="row_2_1">
+                <span class="row_2_1_1">Тормозное нажатие на ось, тс</span>
+                <span class="row_2_1_2">Количество осей</span>
+                <span class="row_2_1_3">Нажатие колодок, тс</span>
+            </div>
+
+            <div class="row_2_2">
+                <span class="row_2_2_1">3,5</span>
+                <div class="row_2_2_2"><input type="text" class="n2 inp" size="20" placeholder="осей" name="num2" min="1" max="450" type="tel" required></div>
+                <div class="row_2_2_3"></div>
+            </div>
+
+            <div class="row_2_3">
+                <span class="row_2_3_1">7</span>
+                <div class="row_2_3_2"><input type="text" class="n3 inp" size="20" placeholder="осей" name="num3" min="1" max="450" type="tel" required></div>
+                <div class="row_2_3_3"></div>
+            </div>
+
+            <div class="row_2_4">
+                <span class="row_2_4_1">10</span>
+                <div class="row_2_4_2"><input type="text" class="n4 inp" size="20" placeholder="осей" name="num4" min="1" max="450" type="tel" required></div>
+                <div class="row_2_4_3"></div>
+            </div>
+
+            <div class="row_2_5">
+                <span class="row_2_5_1">11</span>
+                <div class="row_2_5_2"><input type="text" class="n5 inp" size="20" placeholder="осей" name="num5" min="1" max="450" type="tel" required></div>
+                <div class="row_2_5_3"></div>
+            </div>
+
+            <div class="row_2_6">
+                <div class="row_2_6_1"><input type="text" class="n6 inp" size="20" placeholder="Нажатие" name="num6" min="1" max="450" type="tel" required></div>
+                <div class="row_2_6_2"><input type="text" class="n7 inp" size="20" placeholder="осей" name="num7" min="1" max="450" type="tel" required></div>
+                <div class="row_2_6_3"></div>
+            </div>
+
+            <div class="row_2_7">
+                <div class="row_2_7_1"><input type="text" class="n8 inp" size="20" placeholder="Нажатие" name="num8" min="1" max="450" type="tel" required></div>
+                <div class="row_2_7_2"><input type="text" class="n9 inp" size="20" placeholder="осей" name="num9" min="1" max="450" type="tel" required></div>
+                <div class="row_2_7_3"></div>
+            </div>
+
+            <div class="row_2_8">
+                <span class="row_2_8_1">Всего</span>
+                <div class="row_2_8_2"></div>
+                <div class="row_2_8_3"></div>
+            </div>
+
+            <div class="row_3">
+                <button class="btn" onclick="multiply1()">Расчет</button>
+            </div>
+
+            <div class="row_4">
+                    <h3>Важно</h3>
+                <ul class="row_4_1">
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, asperiores?</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, asperiores?</li>
+                    <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa, asperiores?</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+
+        <a class="footer_link" href="/index.html">На главную</a>
+        <a class="footer_link" href="/site pages/fuel.html">К расчету топлива</a>
+        <a class="footer_link" href="/site pages/about.html">О проэкте</a>
+
+    </footer>
+
 </body>
 </html>
