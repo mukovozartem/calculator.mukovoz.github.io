@@ -29,8 +29,7 @@ a{
 
 .header{
     width: 100%;
-    max-width: 90%;
-    min-width: 300px;
+    max-width: 90%; 
     height: 50px;
     margin: 0 auto 25px;
     padding: 10px;
@@ -48,13 +47,11 @@ a{
 .footer{
     width: 100%;
     max-width: 90%;
-    min-width: 300px;
     height: 50px;
     margin: 0 auto;
     padding: 10px;
     border-radius: 20px 20px 0 0;
     background-color: #222;
-    
     text-align: center;
     display: flex;
     justify-content: space-around;
@@ -125,6 +122,7 @@ a{
     max-width: 33%;
     margin: 0 auto;
     display: flex;
+    justify-content: center;
     border-right: 1px dotted #333;
 }
 
@@ -137,16 +135,17 @@ a{
     border-right: 1px dotted #333;
 }
 
-/* .row_2_1_2{
-    align-items: center;
-} */
-
 .row_2_1_3, .row_2_2_3, .row_2_3_3, .row_2_4_3, .row_2_5_3, .row_2_6_3, .row_2_7_3, .row_2_8_3{
     width: 100%;
     max-width: 33%;
     margin: 0 auto;
     display: flex;
     justify-content: flex-end;
+}
+
+.row_2_2_3, .row_2_3_3, .row_2_4_3, .row_2_5_3, .row_2_6_3, .row_2_7_3, .row_2_8_3{
+    display: flex;
+    justify-content: center;
 }
 
 .row_3{
@@ -158,6 +157,21 @@ a{
     justify-content: center;
 }
 
+.row_4{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+}
+
+.row_4_1{
+    padding: 0 10px 0 10px;
+}
+
+h1{
+    margin: 0 auto;
+}
+
 .inp{
     width: 100%;
     max-width: 75%;
@@ -166,6 +180,7 @@ a{
     font-family: 'Roboto Mono', monospace;
     color: #222;
     font-size: 20px;
+    text-align: center;
     border: 2px solid #666;
     outline:none;
 }
@@ -190,4 +205,110 @@ a{
     color: #222;
     font-size: 17px;
     text-align: center;
+}
+
+@media (min-width: 600px) and (max-width: 700px){
+    .spravka_treb, .spravka_fakt{
+        max-width: 80%;
+    }
+
+    .footer_link{
+        font-size: 1.2em;
+    }
+}
+
+@media (min-width: 510px) and (max-width: 599px){
+    .spravka_treb, .spravka_fakt{
+        max-width: 80%;
+    }
+
+    .footer_link{
+        font-size: 1em;
+    }
+
+    .row_4{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 440px) and (max-width: 509px){
+    .spravka_treb, .spravka_fakt{
+        max-width: 80%;
+    }
+
+    .footer_link{
+        font-size: 13px;
+    }
+
+    .row_4{
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 439px){
+    .header{
+        font-size: 1.25em;
+        height: auto;
+        margin: 0 auto 15px;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    .spravka_treb, .spravka_fakt{
+        max-width: 80%;
+        font-size: 18px;
+    }
+
+    .footer_link{
+        font-size: 11px;
+    }
+
+    .row_4{
+        font-size: 10px;
+    }
+
+    .btn{
+        font-size: 15px;
+    }
+
+    ::placeholder{
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 300px) and (max-width: 374px){
+    .header{
+        font-size: 1.15em;
+        height: auto;
+        margin: 0 auto 10px;
+    }
+
+    .footer{
+        height: auto;
+    }
+
+    .spravka_treb, .spravka_fakt{
+        max-width: 85%;
+        font-size: 15px;
+    }
+
+    .footer_link{
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .row_4{
+        font-size: 10px;
+        padding: 15px;
+    }
+
+    .btn{
+        font-size: 15px;
+    }
+
+    ::placeholder{
+        font-size: 15px;
+    }
 }
