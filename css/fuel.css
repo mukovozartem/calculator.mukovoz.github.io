@@ -131,6 +131,10 @@ img{
     justify-content: flex-start;
 }
 
+#rd_js{
+    text-align: center;
+}
+
 .btn{
     min-width: 75px;
     margin: 0 auto;
