@@ -50,6 +50,8 @@ img{
     align-items: center;
 }
 
+
+
 .calc_tr, .calc_lok{
     width: 100%;
     max-width: 50%;
@@ -111,6 +113,7 @@ img{
     justify-content: center;
     outline:none;
     border: 2px solid #666;
+    text-align: center;
 }
 
 #n1:focus, #n2:focus, #n3:focus, #n4:focus{
