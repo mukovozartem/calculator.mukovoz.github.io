@@ -52,6 +52,8 @@ img{
 
 .content{
     display: flex;
+    flex-direction: column;
+    align-items: center;
     flex: auto;
 }
 
