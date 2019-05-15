@@ -62,6 +62,7 @@ img{
     width: 100%;
     max-width: 50%;
     min-width: 300px;
+    max-height: 30%;
     margin: 0 auto 25px;
     padding: 10px;
     border-radius: 20px;
