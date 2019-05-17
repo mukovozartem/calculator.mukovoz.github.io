@@ -72,6 +72,9 @@ img{
     color: #222;
     font-size: 1.5em;
     text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .about{
