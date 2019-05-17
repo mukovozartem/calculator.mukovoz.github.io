@@ -15,92 +15,76 @@
 
 <!-- Попробывать сделать ввод в поля только цифры -->
 
-    <header class="header">
-        Расчет расхода топлива
-    </header>
+    <div class="wrapper">
 
-    <div class="content">
+        <header class="header">
+            Расчет расхода топлива
+        </header>
+    
+        <div class="calc1">
 
-        <div class="calc_tr">
+            <div class="data-1">Вес</div>
 
-            <div class="calc_tr_col">
-                <div class="calc_tr_row">
-                    <div class="rd_data11">Вес</div>
-                </div>
-                <div class="calc_tr_rowi">
-                    <div class="rd_data12"><input type="text" id="n1" size="20" placeholder="брутто" name="num1" min="1" max="5000" type="tel" required></div>
-                </div>
-                <div class="calc_tr_row">
-                    <div class="rd_data13"><button class="btn" onclick="multiply1()">Перемножить</button></div>
-                </div>
+            <div class="field-input-1">
+                <input type="number" class="input-1" id="input-1" size="20" placeholder="Брутто" name="num1" min="1" max="5" type="tell" required>
             </div>
-    
-            <div class="calc_tr_col">
-                <div class="calc_tr_row">
-                    <div class="rd_data21">Расстояние</div>
-                </div>
-                <div class="calc_tr_rowi">
-                    <div class="rd_data22"><input type="text" id="n2" size="20" placeholder="км" name="num2" min="1" max="250" type="tel" required></div>
-                </div>
-                <div class="calc_tr_row">
-                        <div class="rd_data23">Итого</div>
-                </div>
+
+            <div class="btn-1">
+                <button class="btn-1" onclick="multiply1()">Расчитать</button>
             </div>
-    
-            <div class="calc_tr_col">
-                <div class="calc_tr_row">
-                    <div class="rd_data31">Коэфициент</div>
-                </div>
-                <div class="calc_tr_rowi">
-                    <div class="rd_data32"><input type="text" id="n3" size="20" placeholder="по таблице" name="num3" min="1" max="250" type="tel" required></div>
-                </div>
-                <div class="calc_tr_row">
-                    <div class="rd_data33"><div id="rd_js"></div></div>
-                </div>
+
+            <div class="data-2">Расстояние</div>
+
+            <div class="field-input-2">
+                <input type="number" class="input-2" id="input-2" size="20" placeholder="Брутто" name="num1" min="1" max="5" type="tell" required>
             </div>
-    
-        </div>
-    
-        <div class="calc_lok">
-    
-            <div class="calc_lok_col">
-                <div class="calc_lok_row">
-                    <div class="lok_data11">Расстояние</div>
-                </div>
-                <div class="calc_lok_rowi">
-                    <div class="lok_data12"><input type="text" id="n4" size="20" placeholder="км" name="num4" min="1" max="250" type="tel" required></div>
-                </div>
-                <div class="calc_lok_row">
-                    <div class="lok_data13"><button class="btn" onclick="multiply2()">Перемножить</button></div>
-                </div>
+
+            <div class="data-4">Итого</div>
+
+            <div class="data-3">Коэфициент</div>
+
+            <div class="field-input-3">
+                <input type="number" class="input-3" id="input-3" size="20" placeholder="Брутто" name="num1" min="1" max="5" type="tell" required>
             </div>
-    
-            <div class="calc_lok_col">
-                <div class="calc_lok_row">
-                    <div class="lok_data21">none</div>
-                </div>
-                <div class="calc_lok_rowi">
-                    <div class="lok_data22">Итого</div>
-                </div>
-                <div class="calc_lok_row">
-                    <div class="lok_data23"><div id="lok_js"></div></div>
-                </div>
-            </div>
+
+            <div class="output-1"></div>
+
         </div>
 
-        <div class="empty">
-            empty
+        <div class="calc2">
+
+            <div class="datd-5">Расстояние</div>
+
+            <div class="field-input-4">
+                    <input type="number" class="input-4" id="input-4" size="20" placeholder="Брутто" name="num1" min="1" max="5" type="tell" required>
+            </div>
+
+            <div class="btn-2">
+                    <button class="btn-2" onclick="multiply2()">Расчитать</button>
+            </div>
+
+            <div class="data-6">Итого</div>
+
+            <div class="output-2"></div>
+
         </div>
     
+        <footer class="footer">
+
+            <div class="footer_data">
+                Created by Mukovoz Artem, tab. #2730.
+            </div>
+
+            <div class="footer_link">
+                    <a class="logo" href="https://t.me/Mukovoz_Artem"><img class="imgsoc" src="social/telegram.svg" title="Telegram" alt=""></a>
+                    <a class="logo" href="https://vk.com/mukovoz"><img class="imgsoc" src="social/vk.svg" title="Vkontakte" alt=""></a>
+                    <a class="logo" href="https://www.instagram.com/artem.mukovoz/"><img class="imgsoc" src="social/instagram.svg" title="Instagram" alt=""></a>
+                    <a class="logo" href="viber://add?number=380993550094"><img class="imgsoc" src="social/viber.svg" title="Viber" alt=""></a>
+            </div>
+
+        </footer>
+
     </div>
-
-    <footer class="footer">
-
-        <a class="footer_link" href="/index.html">На главную</a>
-        <a class="footer_link" href="/site pages/vu45.html">К расчету справки ВУ-45</a>
-        <a class="footer_link" href="/site pages/about.html">О проэкте</a>
-
-    </footer>
 
     <script src="/js/fuel.js"></script>
 
