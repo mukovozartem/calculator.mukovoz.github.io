@@ -6,16 +6,16 @@ function multiply1(){
     num2=parseInt(num2);
     num3=document.getElementsByClassName("input-3").value;
     num3=parseInt(num3);
-    result=(num1*num2*num3)/10000;
-    document.getElementsByClassName("output-1").innerHTML = result;
+    result1=(num1*num2*num3)/10000;
+    document.getElementsByClassName("output-1").innerHTML = result1;
     }
     
 function multiply2(){
     var num4,result2;
     num4=document.getElementsByClassName("input-4").value;
     num4=parseInt(num4);
-    result=(num4*0.75);
-    document.getElementsByClassName("output-2").innerHTML = result;
+    result2=(num4*0.75);
+    document.getElementsByClassName("output-2").innerHTML = result2;
 }
 
 // Попробывать сделать ввод в поля только цифры
