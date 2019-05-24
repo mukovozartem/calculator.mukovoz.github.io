@@ -1,5 +1,5 @@
 function multiply1(){
-    var num1, num2, num3, result1;
+    var num1, num2, num3, result;
     num1=document.getElementsByClassName("input-1").value;
     num1=parseInt(num1); 
     num2=document.getElementsByClassName("input-2").value;
@@ -7,7 +7,7 @@ function multiply1(){
     num3=document.getElementsByClassName("input-3").value;
     num3=parseInt(num3);
     result1=(num1*num2*num3)/10000;
-    document.getElementsByClassName("output-1").innerHTML = result1;
+    document.getElementsByClassName("output-1").innerHTML = result;
     }
     
 function multiply2(){
