@@ -171,7 +171,6 @@ img{
     .calc1{height: 40%; padding-top: 25px}
     .calc2{height: 20%; padding-top: 25px}
     .input-css{width: 100%; min-width: 150px;}
-    .calc1{background-color: blue}
 }
 
 @media (min-width: 500px) and (max-width: 574px){
@@ -182,7 +181,6 @@ img{
     .calc1{height: 40%; padding-top: 25px}
     .calc2{height: 20%; padding-top: 25px}
     .input-css{width: 100%; min-width: 120px;}
-    .calc1{background-color: lightblue;}
 }
 
 @media (min-width: 390px) and (max-width: 499px){
@@ -192,7 +190,6 @@ img{
     .calc1, .calc2{width: 90%; font-size: 1.25em;}
     .calc1{height: 40%; padding-top: 25px}
     .calc2{height: 20%; padding-top: 25px}
-    .calc1{background-color: lightseagreen;}
     .input-css{width: 100%; min-width: 100px;}
 }
 
@@ -203,7 +200,6 @@ img{
     .calc1, .calc2{width: 90%; font-size: 1.15em;}
     .calc1{height: 40%; padding-top: 25px}
     .calc2{height: 20%; padding-top: 25px}
-    .calc1{background-color: lightseagreen;}
     .input-css{width: 100%; min-width: 80px;}
 }
 
@@ -214,6 +210,5 @@ img{
     .calc1, .calc2{width: 90%; font-size: 1em;}
     .calc1{height: 40%; padding-top: 25px}
     .calc2{height: 20%; padding-top: 25px}
-    .calc1{background-color: lightseagreen;}
     .input-css{width: 100%; min-width: 70px;}
 }
